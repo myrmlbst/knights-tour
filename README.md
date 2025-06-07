@@ -7,7 +7,7 @@ This project visualizes the Knight's Tour problem, where a knight must visit eve
 ## Running the Project
 1. Install LÖVE2D from https://love2d.org/
 2. Clone this repository
-3. Run the game by dragging the project folder onto the LÖVE2D application or using the command line: ```love .```
+3. Run the game by dragging the project folder onto the LÖVE2D application, or by using the command line: ```love .```
 
 ## Directory Structure
 ```
