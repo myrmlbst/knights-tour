@@ -16,11 +16,15 @@ The implementation uses Warnsdorff's algorithm to find a solution and provides a
 ```
 knights-tour/
 ├── src/                   
-│   ├── knight.lua         # knight's tour algorithm
-│   └── board.lua          # board visualization
+│   ├── knight.lua      # knight's tour algorithm
+│   └── board.lua       # board visualization
 ├── assets/
-│   ├── sounds/            # audio files for visuaizations
+│   ├── sounds/         # audio files for visualizations
+│   ├── images/         # imgs of board before/after the algorithm runs
+├── doc/                # remaining to-do's
 ├── main.lua
-├── .gitignore
+├── conf.lua            # pop-up page configurations
+├── .gitignore          # ignore editor configs
+├── LICENSE
 └── README.md
 ```
