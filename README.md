@@ -1,5 +1,8 @@
 # Knight's Tour Visualization
-This project visualizes the Knight's Tour problem, where a knight must visit every square on an 8x8 chessboard exactly once. A knight may only move in an L-shape across the board. The implementation uses Warnsdorff's algorithm to find a solution and provides an animated visualization of the knight's path.
+This project visualizes the Knight's Tour problem, where a knight must visit every square on an 8x8 chessboard exactly once. A knight may only move in an L-shape across the board.
+![Initialized Board](./assets/images/init-board.jpeg)
+The implementation uses Warnsdorff's algorithm to find a solution and provides an animated visualization of the knight's path.
+![Initialized Board](./assets/images/end-board.jpeg)
 
 ## Requirements
 - LÖVE2D 11.5 or later
