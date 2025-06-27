@@ -1,7 +1,13 @@
 # Knight's Tour Visualization
-This project visualizes the Knight's Tour problem, where a knight must visit every square on an 8x8 chessboard exactly once. A knight may only move in an L-shape across the board.
+
+**The knight's tour is a classic problem in computer science and mathematics, often used to demonstrate backtracking algorithms and heuristic search techniques. This project visualizes a solution to said problem, where a knight must visit every square on an 8x8 chessboard exactly once.**
+
+The knight moves in this algorithm the same way it would on a regular chess board; Its paths may only follow an L-shape in any direction.
+
 ![Initialized Board](./assets/images/init-board.jpeg)
-The implementation uses Warnsdorff's algorithm to find a solution and provides an animated visualization of the knight's path.
+
+The implementation uses Warnsdorff's algorithm to find an open-tour solution where the path cannot be re-traversed according to the Knight's movement rules (as opposed to a closed-tour solution, where the first position can be re-traversed from the last position, creating an endless loop for the Knight to move on). 
+
 ![Initialized Board](./assets/images/end-board.jpeg)
 
 ## Requirements
