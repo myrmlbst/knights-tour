@@ -6,7 +6,7 @@ The knight moves in this algorithm the same way it would on a regular chess boar
 
 ![Initialized Board](./assets/images/init-board.jpeg)
 
-The implementation uses Warnsdorff's algorithm to find an open-tour solution where the path cannot be re-traversed according to the Knight's movement rules (as opposed to a closed-tour solution, where the first position can be re-traversed from the last position, creating an endless loop for the Knight to move on). 
+This implementation uses Warnsdorff's algorithm to find an open-tour solution where the path cannot be re-traversed according to the Knight's movement rules (as opposed to a closed-tour solution, where the first position can be re-traversed from the last position, creating an endless loop for the Knight to move on). 
 
 ![Initialized Board](./assets/images/end-board.jpeg)
 
